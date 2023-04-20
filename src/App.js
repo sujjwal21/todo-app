@@ -1,10 +1,13 @@
 
 import './App.css';
+import Navbar from './components/Navbar';
+import TodoInput from './components/TodoInput';
 
 function App() {
   return (
     <div className="App">
-      <h1>Todo</h1>
+    <Navbar />
+      <TodoInput />
     </div>
   );
 }
